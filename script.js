@@ -94,6 +94,9 @@ del.onclick = () => {
    if(displayVal.innerText != 0){
       result.innerText = result.innerText.slice(0, -1);
    }
+   displayVal = 0;
+   pendingVal = displayVal;
+   
 }
 
 clear.onclick = () => {
