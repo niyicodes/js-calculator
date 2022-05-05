@@ -85,6 +85,27 @@ h2{
 }
 
 
-.btn{
+@media screen and (max-width: 620px) {
+      .container {
+      font-size: 50%;
+   }
 
-}
+   .calcbody{
+      width: 400px;
+      padding: .5rem;
+   }
+
+   .btn {
+      font-size: 1.2rem;
+      height: 4rem;
+      width: 4rem;
+      border-radius: 2rem;
+      border-width: 0;
+      border-style: none;
+      margin: .88rem;
+   }
+
+   .btn--long-horizontal {
+      width: 9.5rem;
+   }
+ }
